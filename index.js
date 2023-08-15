@@ -124,6 +124,7 @@ function allWagesFor (employeeRecord) {
 
 }
 
+//#8
 function calculatePayroll (employeeRecord) {
     let allWages = employeeRecord.map(allWagesFor)
 
